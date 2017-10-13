@@ -1,0 +1,32 @@
+html {
+  box-sizing: border-box;
+  background-color: #eee9de;
+  font-family: Lato, sans-serif;
+  line-height: 1.5;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+.pyramid {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-align: center;
+}
+
+.pyramid li {
+  display: inline-block;
+  max-width: 25em;
+  margin: 1.5rem;
+  text-align: left;
+
+.pyramid img {
+  display: block;
+  margin: 0 auto 1 rem;
+}
+
+.pyramid strong {
+  font-size: 1.5rem;
+}
