@@ -13,9 +13,8 @@ html {
 h1 {
   font-size: 1.5rem;
   font-weight: bolder;
-  margin-left: auto;
-  margin-right: auto;
-  margin-left: 1.5rem;
+  padding-left: .7em;
+  max-wdith: 25em;
 }
 
 body {
@@ -33,6 +32,7 @@ img {
 p {
   font-weight: bold;
   margin-bottom: 1.5rem;
+  margin-top: 0;
   padding: 1em;
   max-width: 25em;
 }
@@ -45,4 +45,10 @@ a {
   border-color: #333;
   border-radius: .5em;
   margin: 1.5em;
+}
+
+a:hover {
+  background-color: #666;
+  color: #eee9de;
+  border-color: #666;
 }
