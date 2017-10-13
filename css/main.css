@@ -1,32 +1,48 @@
 html {
+  font-family: Lato, sans-serif;
   box-sizing: border-box;
   background-color: #eee9de;
-  font-family: Lato, sans-serif;
   line-height: 1.5;
+  color: #333;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
-.pyramid {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-  text-align: center;
-}
-
-.pyramid li {
-  display: inline-block;
-  max-width: 25em;
-  margin: 1.5rem;
-  text-align: left;
-
-.pyramid img {
-  display: block;
-  margin: 0 auto 1 rem;
-}
-
-.pyramid strong {
+h1 {
   font-size: 1.5rem;
+  font-weight: bolder;
+  margin-left: auto;
+  margin-right: auto;
+  margin-left: 1.5rem;
+}
+
+body {
+  margin: 0;
+}
+
+img {
+  display: inline-block;
+  width: 100%;
+  max-width: 25em;
+  padding: 1em;
+  margin-top: 1.5rem;
+}
+
+p {
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  padding: 1em;
+  max-width: 25em;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+  padding: .4em .75em .5em;
+  border-style: solid;
+  border-color: #333;
+  border-radius: .5em;
+  margin: 1.5em;
 }
