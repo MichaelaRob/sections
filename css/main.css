@@ -12,18 +12,12 @@ html {
 
 h1 {
   font-size: 1.5rem;
-  font-weight: bolder;
   padding-left: .7em;
   max-wdith: 25em;
 }
 
 body {
   margin: 0;
-  display: inline-block;
-}
-
-header {
-  display: inline-block;
 }
 
 img {
@@ -32,7 +26,6 @@ img {
   max-width: 25em;
   padding: 1em;
   margin-top: 1.5rem;
-  vertical-align: middle;
 }
 
 p {
