@@ -26,10 +26,11 @@ img {
 }
 
 .image {
-    display: inline-block;
+  display: inline-block;
+  max-width: 25em;
 }
 
-a {
+.btn {
   text-decoration: none;
   color: #333;
   padding: .4em .75em .5em;
