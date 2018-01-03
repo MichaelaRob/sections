@@ -3,7 +3,6 @@ html {
   box-sizing: border-box;
   background-color: #eee9de;
   line-height: 1.5;
-  color: #333;
 }
 
 *, *::before, *::after {
@@ -14,7 +13,9 @@ h2 {
   font-size: 1.5rem;
   max-width: 25em;
   margin-top: 0;
+  margin-bottom: 1em;
   font-weight: bold;
+  color: #000;
 }
 
 body {
@@ -28,9 +29,10 @@ img {
 
 .image {
   display: inline-block;
-  max-width: 25em;
   padding: 1em;
   vertical-align: middle;
+  width: 100%;
+  max-width: 25em;
 }
 
 .btn {
@@ -53,15 +55,13 @@ header {
 }
 
 section {
-  margin-top: 2em;
+  margin: 2em 0;
   text-align: center;
 }
 
 p {
-  font-weight: bold;
   margin-bottom: 1.5rem;
   margin-top: 0;
-  max-width: 25em;
 }
 
 .text {
@@ -69,4 +69,6 @@ p {
   text-align: left;
   padding: 1em;
   vertical-align: middle;
+  max-width: 25em;
+  width: 100%;
 }
