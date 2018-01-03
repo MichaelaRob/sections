@@ -10,10 +10,10 @@ html {
   box-sizing: inherit;
 }
 
-h1 {
+h2 {
   font-size: 1.5rem;
-  padding-left: .7em;
-  max-wdith: 25em;
+  max-width: 25em;
+  margin-top: 0;
 }
 
 body {
@@ -21,19 +21,12 @@ body {
 }
 
 img {
-  display: inline-block;
   width: 100%;
-  max-width: 25em;
-  padding: 1em;
-  margin-top: 1.5rem;
+  padding-right: 1em;
 }
 
-p {
-  font-weight: bold;
-  margin-bottom: 1.5rem;
-  margin-top: 0;
-  padding: 1em;
-  max-width: 25em;
+.image {
+    display: inline-block;
 }
 
 a {
@@ -43,11 +36,31 @@ a {
   border-style: solid;
   border-color: #333;
   border-radius: .5em;
-  margin: 1.5em;
 }
 
 a:hover {
   background-color: #666;
   color: #eee9de;
   border-color: #666;
+}
+
+header {
+  display: inline-block;
+}
+
+section {
+  margin: 1.5rem;
+  text-align: center;
+}
+
+p {
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  margin-top: 0;
+  max-width: 25em;
+}
+
+.text {
+  display: inline-block;
+  text-align: left;
 }
